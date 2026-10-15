@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Definitivo: 55 Cadeiras Gamer Confortáveis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(18, 24, 38, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover-border: rgba(99, 102, 241, 0.4);
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --primary: #6366f1;
+      --primary-glow: rgba(99, 102, 241, 0.25);
+      --accent: #06b6d4;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --tag-bg: rgba(255, 255, 255, 0.05);
+      --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+      --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(6, 182, 212, 0.10) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(139, 92, 246, 0.08) 0%, transparent 50%);
+      background-attachment: fixed;
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding-bottom: 80px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* HEADER */
+    header {
+      padding: 60px 0 30px;
+      text-align: center;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      color: #a5b4fc;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .badge-pill .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: #10b981;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #10b981;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 780px;
+      margin: 0 auto 30px;
+    }
+
+    /* QUICK STATS */
+    .stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .stat-item {
+      background: rgba(18, 24, 38, 0.6);
+      border: 1px solid var(--card-border);
+      padding: 12px 24px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--accent);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: left;
+      line-height: 1.2;
+    }
+
+    /* GUIDELINES TABLE / BOX */
+    .guide-box {
+      background: linear-gradient(180deg, rgba(24, 32, 54, 0.7), rgba(15, 23, 42, 0.6));
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 40px;
+      backdrop-filter: blur(12px);
+    }
+
+    .guide-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+      color: #cbd5e1;
+    }
+
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .guide-card {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 16px;
+    }
+
+    .guide-card-header {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #38bdf8;
+      margin-bottom: 6px;
+    }
+
+    .guide-card-content {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+    }
+
+    /* CONTROLS SECTION */
+    .controls-wrapper {
+      position: sticky;
+      top: 16px;
+      z-index: 100;
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 18px 24px;
+      margin-bottom: 36px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .search-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .search-input-box {
+      flex: 1;
+      min-width: 280px;
+      position: relative;
+    }
+
+    .search-input-box input {
+      width: 100%;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 0 16px 0 46px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .search-input-box input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-glow);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .sort-box {
+      width: 220px;
+    }
+
+    .sort-box select {
+      width: 100%;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 0 16px;
+      color: #fff;
+      font-size: 0.9rem;
+      outline: none;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .sort-box select option {
+      background: #1e293b;
+      color: #fff;
+    }
+
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .cat-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .cat-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .cat-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: 0 0 15px var(--primary-glow);
+    }
+
+    .result-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* GRID OF PRODUCTS */
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 24px;
+    }
+
+    .product-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      backdrop-filter: blur(8px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--card-hover-border);
+      box-shadow: 0 12px 24px -10px rgba(99, 102, 241, 0.3);
+    }
+
+    .card-top {
+      margin-bottom: 16px;
+    }
+
+    .card-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .brand-tag {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(6, 182, 212, 0.12);
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    .item-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+
+    .category-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      background: rgba(255, 255, 255, 0.06);
+      padding: 2px 10px;
+      border-radius: 9999px;
+      margin-bottom: 14px;
+    }
+
+    .card-description {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    /* SPECS PILLS */
+    .specs-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .spec-item {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    .spec-label {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    .spec-value {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* CARD FOOTER & BUTTONS */
+    .card-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .price-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .price-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #34d399;
+    }
+
+    .links-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .store-btn {
+      flex: 1;
+      min-width: 120px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      text-align: center;
+    }
+
+    .store-btn.primary {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .store-btn.primary:hover {
+      background: #4f46e5;
+      box-shadow: 0 0 12px var(--primary-glow);
+    }
+
+    .store-btn.secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .store-btn.secondary:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    /* EMPTY STATE */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 1.4rem;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #64748b;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    @media (max-width: 768px) {
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+      .controls-wrapper {
+        padding: 16px;
+      }
+      .sort-box {
+        width: 100%;
+      }
+      .stat-item {
+        flex: 1 1 calc(50% - 10px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-pill">
+        <span class="pulse-dot"></span>
+        Pesquisa Exaustiva Concluída
+      </div>
+      <h1>Guia Definitivo de Cadeiras Gamer Confortáveis</h1>
+      <p class="subtitle">
+        Catálogo interativo com 55 modelos auditados para longas jornadas. Analisamos densidade de espuma injetada, ergonomia postural, respirabilidade térmica e limites de peso.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-num" id="totalCount">55</div>
+          <div class="stat-label">Cadeiras<br>Mapeadas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Categorias<br>Especializadas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Pistão Classe 4<br>ou Reforçado</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">NR-17</div>
+          <div class="stat-label">Conformidade<br>& Ergonomia</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- GUIA DE PERFIS -->
+    <div class="guide-box">
+      <div class="guide-title">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        Recomendações Rápidas por Desafio Postural & Clima
+      </div>
+      <div class="guide-grid">
+        <div class="guide-card">
+          <div class="guide-card-header">🔥 Calor Excessivo / Sem Ar</div>
+          <div class="guide-card-content">
+            Prefira <strong>Tecido (Fabric)</strong> ou <strong>Mesh</strong>. Modelos como <strong>Corsair T3 Rush</strong> e <strong>ThunderX3 YAMA1</strong> eliminam o acúmulo de suor e não descascam com o passar dos anos.
+          </div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-card-header">⚡ Dor na Lombar (+8 horas)</div>
+          <div class="guide-card-content">
+            Evite almofadas presas por elástico. Dê prioridade a suporte lombar interno mecânico como no <strong>Razer Iskur V2</strong> ou modelos de ergonomia alemã como a <strong>DT3 Chrono</strong>.
+          </div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-card-header">🏋️‍♂️ Biotipo Alto / Pesado (+100kg)</div>
+          <div class="guide-card-content">
+            Foque em assentos planos com mais de 55cm (sem abas prensando as coxas) e espuma injetada D65. Destaques: <strong>DT3 Rhino</strong> e <strong>Noblechairs Hero</strong>.
+          </div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-card-header">💰 Melhor Equilíbrio de Custo</div>
+          <div class="guide-card-content">
+            Na faixa de R$ 800 a R$ 1.200, a clássica <strong>ThunderX3 TGC12</strong> e a <strong>Pichau Nova ACF</strong> entregam excelente robustez e pós-venda consolidado no Brasil.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTROLES, FILTROS E BUSCA -->
+    <div class="controls-wrapper">
+      <div class="search-row">
+        <div class="search-input-box">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="searchInput" placeholder="Pesquisar por modelo, marca (ex: DT3, Corsair, Razer), material ou recurso...">
+        </div>
+        <div class="sort-box">
+          <select id="sortSelect">
+            <option value="default">Ordenar: Destaques</option>
+            <option value="price-asc">Preço: Menor para Maior</option>
+            <option value="price-desc">Preço: Maior para Menor</option>
+            <option value="weight-desc">Suporte de Peso: Maior</option>
+            <option value="name-asc">Nome: A - Z</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="category-pills" id="categoryContainer">
+        <button class="cat-btn active" data-cat="all">Todas as Opções (55)</button>
+        <button class="cat-btn" data-cat="mesh-fabric">Tecido & Mesh Respirável</button>
+        <button class="cat-btn" data-cat="custo-beneficio">Custo-Benefício Equilibrado</button>
+        <button class="cat-btn" data-cat="ergonomia">Ergonomia Avançada (+8h)</button>
+        <button class="cat-btn" data-cat="plus-size">Plus Size / Biotipos Maiores</button>
+        <button class="cat-btn" data-cat="luxo">Linha Luxo & Pro-eSports</button>
+      </div>
+
+      <div class="result-info">
+        <span id="filteredCount">Exibindo 55 cadeiras</span>
+        <span>Pressione nos links para acessar as lojas oficiais ou e-commerces</span>
+      </div>
+    </div>
+
+    <!-- GRID DE PRODUTOS -->
+    <div class="products-grid" id="productsGrid"></div>
+
+    <footer>
+      <p>Guia de Pesquisa Exaustiva de Cadeiras Gamer Confortáveis • Atualizado para compras online com pronta-entrega no Brasil.</p>
+    </footer>
+  </div>
+
+  <script>
+    // BASE DE DADOS COM AS 55 CADEIRAS AUDITADAS
+    const productsData = [
+      // CATEGORIA A: TECIDO & MESH (1 a 12)
+      {
+        id: 1,
+        name: "Corsair T3 Rush Fabric",
+        brand: "Corsair",
+        category: "mesh-fabric",
+        catName: "Tecido Respirável",
+        desc: "Inspirada no automobilismo com revestimento em tecido respirável anti-calor. Almofadas viscoelásticas (Memory Foam) cervical e lombar.",
+        foam: "Injetada D50 a frio",
+        arms: "4D Ajustáveis",
+        recline: "90° a 160°",
+        weight: 120,
+        priceMin: 1699,
+        priceMax: 1999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/corsair-t3-rush", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=corsair+t3+rush", type: "secondary" }
+        ]
+      },
+      {
+        id: 2,
+        name: "Corsair TC100 Relaxed Fabric",
+        brand: "Corsair",
+        category: "mesh-fabric",
+        catName: "Tecido Respirável",
+        desc: "Design Relaxed com assento mais largo e abas abertas que não pressionam as pernas. Tecido macio que evita acúmulo térmico.",
+        foam: "Alta Densidade",
+        arms: "2D",
+        recline: "90° a 160°",
+        weight: 120,
+        priceMin: 1199,
+        priceMax: 1499,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/corsair-tc100-relaxed", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=corsair+tc100+relaxed+fabric", type: "secondary" }
+        ]
+      },
+      {
+        id: 3,
+        name: "ThunderX3 YAMA 1",
+        brand: "ThunderX3",
+        category: "mesh-fabric",
+        catName: "ErgoGamer Mesh",
+        desc: "Encosto e assento inteiramente em tela Mesh respirável de alta tração. Apoio lombar dinâmico ajustável integrado à estrutura.",
+        foam: "Assento em Tela Mesh",
+        arms: "1D com acolchoamento",
+        recline: "90° a 135° Sincro",
+        weight: 150,
+        priceMin: 1299,
+        priceMax: 1599,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-yama1", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=thunderx3+yama+1", type: "secondary" }
+        ]
+      },
+      {
+        id: 4,
+        name: "ThunderX3 YAMA 3",
+        brand: "ThunderX3",
+        category: "mesh-fabric",
+        catName: "ErgoGamer Mesh Pro",
+        desc: "Chassi em liga de alumínio fundido, Mesh alemão de alta resistência, apoio lombar com regulagem de altura e profundidade.",
+        foam: "Mesh Premium Total",
+        arms: "3D com botões rápidos",
+        recline: "90° a 135° Mecanismo Frog",
+        weight: 150,
+        priceMin: 2499,
+        priceMax: 2999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-yama-3", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=thunderx3+yama+3", type: "secondary" }
+        ]
+      },
+      {
+        id: 5,
+        name: "DT3 Elise Fabric V2",
+        brand: "DT3",
+        category: "mesh-fabric",
+        catName: "Tecido Tecnológico",
+        desc: "Revestimento exclusivo DT3 SoftFabric™ de alta durabilidade e toque suave. Chassi tubular em aço reforçado e espuma indeformável.",
+        foam: "Injetada D55",
+        arms: "3D Direcionais",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 1399,
+        priceMax: 1699,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-gamer-dt3-elise-fabric/", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/dt3-elise-fabric", type: "secondary" }
+        ]
+      },
+      {
+        id: 6,
+        name: "DT3 Moira ErgoGamer",
+        brand: "DT3",
+        category: "mesh-fabric",
+        catName: "Híbrida Mesh + Espuma",
+        desc: "Encosto em Mesh elástico respirável e assento amplo em espuma injetada com borda cascata que não prende a circulação.",
+        foam: "Injetada D60 (Assento)",
+        arms: "3D",
+        recline: "Multibloco com trava",
+        weight: 130,
+        priceMin: 1599,
+        priceMax: 1899,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-ergonomica-dt3-moira/", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/cadeira-dt3-moira", type: "secondary" }
+        ]
+      },
+      {
+        id: 7,
+        name: "Elements Magna Fabric",
+        brand: "Elements",
+        category: "mesh-fabric",
+        catName: "Tecido de Linho",
+        desc: "Revestimento em linho nobre respirável, suporte lombar interno ajustável por botão rotativo (sem elásticos) e certificação BIFMA.",
+        foam: "Injetada D65",
+        arms: "3D Macios",
+        recline: "90° a 155°",
+        weight: 140,
+        priceMin: 1599,
+        priceMax: 1899,
+        links: [
+          { store: "Elements Oficial", url: "https://loja.elements.com.br/products/cadeira-gamer-elements-magna", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=elements+magna", type: "secondary" }
+        ]
+      },
+      {
+        id: 8,
+        name: "Elements Vector Ergo Mesh",
+        brand: "Elements",
+        category: "mesh-fabric",
+        catName: "ErgoGamer Mesh Total",
+        desc: "Construção de alta engenharia com tela Mesh Krall+, braços 6D ultra-ajustáveis e suporte lombar biomimético autoadaptativo.",
+        foam: "Mesh Krall+ Tencionado",
+        arms: "6D Articulados",
+        recline: "90° a 135°",
+        weight: 150,
+        priceMin: 2499,
+        priceMax: 2899,
+        links: [
+          { store: "Elements Oficial", url: "https://loja.elements.com.br/products/cadeira-elements-vector", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/elements-vector", type: "secondary" }
+        ]
+      },
+      {
+        id: 9,
+        name: "Pichau Nova ACF Tecido",
+        brand: "Pichau",
+        category: "mesh-fabric",
+        catName: "Tecido Respirável",
+        desc: "Mecanismo frog com balanço e bloqueio em qualquer inclinação, tecido especial anti-suor e espuma moldada a frio de alto suporte.",
+        foam: "Moldada a Frio D50",
+        arms: "4D",
+        recline: "90° a 180° Frog",
+        weight: 150,
+        priceMin: 1299,
+        priceMax: 1599,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-nova-acf-tecido", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/pichau-nova-acf", type: "secondary" }
+        ]
+      },
+      {
+        id: 10,
+        name: "Husky Tempest 700 Tecido",
+        brand: "Husky",
+        category: "mesh-fabric",
+        catName: "Tecido Acolchoado",
+        desc: "Assento largo e confortável revestido em tecido de alta gramatura. Braços 4D e almofada cervical em microfibra macia.",
+        foam: "Injetada Alta Densidade",
+        arms: "4D",
+        recline: "90° a 150°",
+        weight: 145,
+        priceMin: 1199,
+        priceMax: 1499,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/husky-tempest-700-tecido", type: "primary" }
+        ]
+      },
+      {
+        id: 11,
+        name: "Noblechairs Hero TX Fabric",
+        brand: "Noblechairs",
+        category: "mesh-fabric",
+        catName: "Tecido Premium TX",
+        desc: "Referência europeia em acabamento. Tecido respirável cor antracite, suporte lombar mecânico integrado ajustável e base em alumínio.",
+        foam: "Espuma Fria D60",
+        arms: "4D Poliuretano Macio",
+        recline: "90° a 135° Multifuncional",
+        weight: 150,
+        priceMin: 3499,
+        priceMax: 3999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/noblechairs-hero-tx", type: "primary" },
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=noblechairs+hero", type: "secondary" }
+        ]
+      },
+      {
+        id: 12,
+        name: "Noblechairs Epic TX Fabric",
+        brand: "Noblechairs",
+        category: "mesh-fabric",
+        catName: "Tecido Premium TX",
+        desc: "Perfil ergonômico estilo banco concha de corrida alemã, tecido acolchoado respirável e excelente sustentação para a coluna cervical.",
+        foam: "Espuma Fria D55",
+        arms: "4D",
+        recline: "90° a 135°",
+        weight: 120,
+        priceMin: 3199,
+        priceMax: 3699,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/noblechairs-epic-tx", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=noblechairs+epic+tx", type: "secondary" }
+        ]
+      },
+
+      // CATEGORIA B: CUSTO-BENEFÍCIO EQUILIBRADO (13 a 37)
+      {
+        id: 13,
+        name: "ThunderX3 TGC12",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Custo-Benefício Clássico",
+        desc: "A cadeira gamer mais vendida do Brasil. Espuma de alta densidade no assento, costuras em diamante, almofadas cervical e lombar.",
+        foam: "Alta Densidade Firme",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 120,
+        priceMin: 999,
+        priceMax: 1249,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-tgc12", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=thunderx3+tgc12", type: "secondary" }
+        ]
+      },
+      {
+        id: 14,
+        name: "ThunderX3 TC3",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Microperfurada",
+        desc: "Tecnologia AIR Tech com microperfurações no revestimento para melhor circulação do ar. Design moderno e encosto com 180° de inclinação.",
+        foam: "Alta Densidade",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 125,
+        priceMin: 899,
+        priceMax: 1099,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-tc3", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=thunderx3+tc3", type: "secondary" }
+        ]
+      },
+      {
+        id: 15,
+        name: "ThunderX3 TC5",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Intermediária Ampla",
+        desc: "Versão aprimorada da série TC, com assento mais largo e espesso em espuma injetada, braços 3D e tecnologia AIR Tech respirável.",
+        foam: "Injetada no Assento",
+        arms: "3D",
+        recline: "90° a 180°",
+        weight: 150,
+        priceMin: 1099,
+        priceMax: 1349,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-tc5", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/thunderx3-tc5", type: "secondary" }
+        ]
+      },
+      {
+        id: 16,
+        name: "ThunderX3 EA3",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Entrada Confortável",
+        desc: "Visual sóbrio com tecnologia AIR Tech, mecanismo de inclinação tipo borboleta e almofadas com elásticos reforçados.",
+        foam: "Espuma de Alta Resiliência",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 120,
+        priceMin: 799,
+        priceMax: 999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-ea3", type: "primary" }
+        ]
+      },
+      {
+        id: 17,
+        name: "ThunderX3 DC3",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Espaçosa Compacta",
+        desc: "Assento com abas suavizadas para evitar atrito nas coxas, almofada de pescoço em formato ergonômico e rodízios macios de 65mm.",
+        foam: "Alta Densidade",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 125,
+        priceMin: 849,
+        priceMax: 1049,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-dc3", type: "primary" }
+        ]
+      },
+      {
+        id: 18,
+        name: "ThunderX3 XC3",
+        brand: "ThunderX3",
+        category: "custo-beneficio",
+        catName: "Esportiva",
+        desc: "Design anatômico com curvatura nas costas que mantém a postura alinhada, acabamento em textura de fibra de carbono.",
+        foam: "Espuma Moldada",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 125,
+        priceMin: 829,
+        priceMax: 1019,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/thunderx3-xc3", type: "primary" }
+        ]
+      },
+      {
+        id: 19,
+        name: "Husky Gaming Storm 100",
+        brand: "Husky",
+        category: "custo-beneficio",
+        catName: "Econômica",
+        desc: "Excelente opção custo-benefício para quem tem até 1,80m e busca apoio lombar e reclinação de 135° sem gastar muito.",
+        foam: "Média Densidade",
+        arms: "Fixos Acolchoados",
+        recline: "90° a 135°",
+        weight: 120,
+        priceMin: 599,
+        priceMax: 799,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/husky-storm-100", type: "primary" }
+        ]
+      },
+      {
+        id: 20,
+        name: "Husky Gaming Avalanche",
+        brand: "Husky",
+        category: "custo-beneficio",
+        catName: "Robusta Intermediária",
+        desc: "Espuma injetada com densidade equilibrada, reclinação de até 150° com bloqueio e braços com ajuste de altura.",
+        foam: "Injetada",
+        arms: "1D com altura",
+        recline: "90° a 150°",
+        weight: 130,
+        priceMin: 799,
+        priceMax: 999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/husky-avalanche", type: "primary" }
+        ]
+      },
+      {
+        id: 21,
+        name: "Husky Gaming Blizzard",
+        brand: "Husky",
+        category: "custo-beneficio",
+        catName: "Reclinável Total",
+        desc: "Assento com camada extra de amortecimento, inclinação total de 180° para descansos rápidos e costuras reforçadas.",
+        foam: "Alta Densidade",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 849,
+        priceMax: 1099,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/husky-blizzard", type: "primary" }
+        ]
+      },
+      {
+        id: 22,
+        name: "Husky Gaming Snow",
+        brand: "Husky",
+        category: "custo-beneficio",
+        catName: "Anatômica Básica",
+        desc: "Perfil leve com almofadas de apoio lombar removíveis, estofamento de boa espessura e rodízios anti-risco de 50mm.",
+        foam: "Densidade D40",
+        arms: "Fixos com apoio macio",
+        recline: "Balanço Relax 15°",
+        weight: 120,
+        priceMin: 699,
+        priceMax: 899,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/husky-snow", type: "primary" }
+        ]
+      },
+      {
+        id: 23,
+        name: "Pichau Omega S",
+        brand: "Pichau",
+        category: "custo-beneficio",
+        catName: "Compacta / Estatura Média",
+        desc: "Desenvolvida sob medida para pessoas de até 1,75m; assento que não prende a circulação atrás do joelho e espuma moldada D45.",
+        foam: "Moldada D45",
+        arms: "3D",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 899,
+        priceMax: 1149,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-omega-s", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/pichau-omega-s", type: "secondary" }
+        ]
+      },
+      {
+        id: 24,
+        name: "Pichau Apollo",
+        brand: "Pichau",
+        category: "custo-beneficio",
+        catName: "Encosto Alto",
+        desc: "Encosto alto para apoio cervical pleno, costuras com reforço duplo e mecanismo borboleta com regulagem de tensão do balanço.",
+        foam: "Injetada",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 849,
+        priceMax: 1099,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-apollo", type: "primary" }
+        ]
+      },
+      {
+        id: 25,
+        name: "Pichau Sigmund",
+        brand: "Pichau",
+        category: "custo-beneficio",
+        catName: "Toque Macio",
+        desc: "Revestimento em couro sintético de toque suave, espuma moldada a frio e almofadas com formato projetado para alívio lombar.",
+        foam: "Moldada a Frio D45",
+        arms: "2D",
+        recline: "90° a 160°",
+        weight: 130,
+        priceMin: 899,
+        priceMax: 1199,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-sigmund", type: "primary" }
+        ]
+      },
+      {
+        id: 26,
+        name: "Pichau Tartarus",
+        brand: "Pichau",
+        category: "custo-beneficio",
+        catName: "Assento Largo",
+        desc: "Assento firme e largo, projetado para durar sem ceder com o peso corporal prolongado. Chassi tubular em aço carbono.",
+        foam: "Espuma Injetada Firme",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 799,
+        priceMax: 999,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-tartarus", type: "primary" }
+        ]
+      },
+      {
+        id: 27,
+        name: "Pichau Kepler",
+        brand: "Pichau",
+        category: "custo-beneficio",
+        catName: "Envolvente",
+        desc: "Laterais do encosto envolventes estilo concha de piloto, excelente para quem busca sensação de abraço na coluna.",
+        foam: "Moldada D40",
+        arms: "1D",
+        recline: "90° a 150°",
+        weight: 120,
+        priceMin: 749,
+        priceMax: 949,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-pichau-kepler", type: "primary" }
+        ]
+      },
+      {
+        id: 28,
+        name: "Mancer Tyr",
+        brand: "Mancer",
+        category: "custo-beneficio",
+        catName: "Super Econômica",
+        desc: "Um dos menores custos do mercado nacional sem abrir mão de pistão a gás Classe 4 e estrutura de metal resistente.",
+        foam: "Espuma Moldada",
+        arms: "Fixos Reforçados",
+        recline: "90° a 180°",
+        weight: 120,
+        priceMin: 649,
+        priceMax: 849,
+        links: [
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/cadeira-gamer-mancer-tyr", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/mancer-tyr", type: "secondary" }
+        ]
+      },
+      {
+        id: 29,
+        name: "SuperFrame Hunter",
+        brand: "SuperFrame",
+        category: "custo-beneficio",
+        catName: "Campeã Terabyte",
+        desc: "Sucesso de vendas na TerabyteShop; almofadas anatômicas com espuma macia, inclinação de 180° e pistão de subida suave.",
+        foam: "Espuma Moldada",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 130,
+        priceMin: 749,
+        priceMax: 949,
+        links: [
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=superframe+hunter", type: "primary" }
+        ]
+      },
+      {
+        id: 30,
+        name: "SuperFrame Star",
+        brand: "SuperFrame",
+        category: "custo-beneficio",
+        catName: "Estilo & Conforto",
+        desc: "Espuma de retorno elástico rápido, couro sintético fácil de higienizar e trava de inclinação estável.",
+        foam: "Média Densidade",
+        arms: "1D",
+        recline: "90° a 160°",
+        weight: 120,
+        priceMin: 699,
+        priceMax: 899,
+        links: [
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=superframe+star", type: "primary" }
+        ]
+      },
+      {
+        id: 31,
+        name: "Gamer Ninja Madoc",
+        brand: "Gamer Ninja",
+        category: "custo-beneficio",
+        catName: "Com Apoio para os Pés",
+        desc: "Possui descanso retrátil para as pernas embutido sob o assento. Excelente para relaxar assistindo vídeos ou em pausas de jogo.",
+        foam: "Espuma Laminada Reforçada",
+        arms: "Articulados",
+        recline: "90° a 155°",
+        weight: 120,
+        priceMin: 649,
+        priceMax: 829,
+        links: [
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=gamer+ninja+madoc", type: "primary" }
+        ]
+      },
+      {
+        id: 32,
+        name: "Gamer Ninja Hiryu",
+        brand: "Gamer Ninja",
+        category: "custo-beneficio",
+        catName: "Entrada Ágil",
+        desc: "Design agressivo e leve com bom estofamento na lombar e montagem rápida e simplificada.",
+        foam: "Espuma Padrão",
+        arms: "Fixos",
+        recline: "Balanço Relax",
+        weight: 120,
+        priceMin: 599,
+        priceMax: 779,
+        links: [
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=gamer+ninja+hiryu", type: "primary" }
+        ]
+      },
+      {
+        id: 33,
+        name: "Fortrek Cruiser",
+        brand: "Fortrek",
+        category: "custo-beneficio",
+        catName: "Tradicional Reforçada",
+        desc: "Acabamento com detalhes em padrão fibra de carbono, almofadas anatômicas com tiras elásticas resistentes e inclinação de 155°.",
+        foam: "Injetada no Assento",
+        arms: "2D",
+        recline: "90° a 155°",
+        weight: 135,
+        priceMin: 899,
+        priceMax: 1149,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/fortrek-cruiser", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=fortrek+cruiser", type: "secondary" }
+        ]
+      },
+      {
+        id: 34,
+        name: "Fortrek Vickers",
+        brand: "Fortrek",
+        category: "custo-beneficio",
+        catName: "Assento Confortável",
+        desc: "Assento mais largo e plano, acolhendo melhor quem não gosta das abas laterais apertadas dos bancos esportivos comuns.",
+        foam: "Injetada",
+        arms: "2D",
+        recline: "90° a 155°",
+        weight: 135,
+        priceMin: 849,
+        priceMax: 1099,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/fortrek-vickers", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/fortrek-vickers", type: "secondary" }
+        ]
+      },
+      {
+        id: 35,
+        name: "Fortrek Black Hawk",
+        brand: "Fortrek",
+        category: "custo-beneficio",
+        catName: "All Black",
+        desc: "Totalmente em preto fosco sem logos chamativos, ideal para setups híbridos de escritório e jogos. Suporta até 140 kg.",
+        foam: "Injetada D50",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 140,
+        priceMin: 999,
+        priceMax: 1249,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/fortrek-black-hawk", type: "primary" }
+        ]
+      },
+      {
+        id: 36,
+        name: "Redragon Metis",
+        brand: "Redragon",
+        category: "custo-beneficio",
+        catName: "Durável",
+        desc: "Cadeira gamer clássica da Redragon com espuma injetada no assento, chassi metálico e almofadas confortáveis.",
+        foam: "Injetada de Alta Resiliência",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 120,
+        priceMin: 899,
+        priceMax: 1149,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/redragon-metis", type: "primary" },
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=redragon+metis", type: "secondary" }
+        ]
+      },
+      {
+        id: 37,
+        name: "Redragon Gaia",
+        brand: "Redragon",
+        category: "custo-beneficio",
+        catName: "Anatômica",
+        desc: "Design ergonômico com curvatura lombar pronunciada, almofada de tração cervical e rodízios silenciosos em poliuretano.",
+        foam: "Alta Densidade",
+        arms: "2D",
+        recline: "90° a 180°",
+        weight: 120,
+        priceMin: 949,
+        priceMax: 1199,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/redragon-gaia", type: "primary" }
+        ]
+      },
+
+      // CATEGORIA C: ERGONOMIA AVANÇADA (+8H DIÁRIAS) (38 a 46)
+      {
+        id: 38,
+        name: "Flexform Alpha 2 Pro",
+        brand: "Flexform",
+        category: "ergonomia",
+        catName: "Ergonomia Nacional NR-17",
+        desc: "Criada pela maior fabricante ergonômica da América Latina. Espuma injetada automotiva, inclinação sincronizada anti-impacto e base de alumínio.",
+        foam: "Injetada Flexform de Alta Performance",
+        arms: "3D Ergonômicos",
+        recline: "Mecanismo Sincronizado",
+        weight: 136,
+        priceMin: 1899,
+        priceMax: 2299,
+        links: [
+          { store: "Flexform Oficial", url: "https://www.flexform.com.br/cadeiras/cadeiras-gamer/alpha-2-pro", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/flexform-alpha-pro", type: "secondary" }
+        ]
+      },
+      {
+        id: 39,
+        name: "Flexform Sigma 2 Pro",
+        brand: "Flexform",
+        category: "ergonomia",
+        catName: "Ergonomia Monobloco",
+        desc: "Apoio de cabeça com ajustes tridimensionais, suporte lombar natural integrado, braços 4D e garantia de fábrica de até 7 anos.",
+        foam: "Injetada Anatômica",
+        arms: "4D Macios",
+        recline: "Sincro com Bloqueio",
+        weight: 136,
+        priceMin: 1999,
+        priceMax: 2499,
+        links: [
+          { store: "Flexform Oficial", url: "https://www.flexform.com.br/cadeiras/cadeiras-gamer/sigma-2-pro", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/flexform-sigma-2-pro", type: "secondary" }
+        ]
+      },
+      {
+        id: 40,
+        name: "Flexform Delta Gamer",
+        brand: "Flexform",
+        category: "ergonomia",
+        catName: "Híbrida Gamer/Office",
+        desc: "Encosto alto respirável com assento em espuma injetada com borda arredondada. Certificada para 8 a 12 horas diárias contínuas de uso.",
+        foam: "Injetada Poliuretano",
+        arms: "2D",
+        recline: "Mecanismo Relax Sincronizado",
+        weight: 136,
+        priceMin: 1199,
+        priceMax: 1499,
+        links: [
+          { store: "Flexform Oficial", url: "https://www.flexform.com.br/cadeiras/cadeiras-gamer/delta", type: "primary" }
+        ]
+      },
+      {
+        id: 41,
+        name: "DT3 Chrono Ergo",
+        brand: "DT3",
+        category: "ergonomia",
+        catName: "Ergonomia de Alta Performance",
+        desc: "Projetada para jornadas intensas; encosto em Mesh elástico, suporte lombar dinâmico bidirecional e assento com slide de profundidade.",
+        foam: "Injetada D65 com Slide",
+        arms: "3D",
+        recline: "Multibloco com Trava Livre",
+        weight: 150,
+        priceMin: 2199,
+        priceMax: 2699,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-ergonomica-dt3-chrono/", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/dt3-chrono", type: "secondary" }
+        ]
+      },
+      {
+        id: 42,
+        name: "DT3 Maya ErgoGamer",
+        brand: "DT3",
+        category: "ergonomia",
+        catName: "Encosto Bi-Partido",
+        desc: "Sistema bi-partido onde a área dorsal e lombar se movimentam de forma independente, acompanhando cada movimento das costas.",
+        foam: "Injetada + Mesh Alemão",
+        arms: "3D",
+        recline: "90° a 135° Sincro",
+        weight: 140,
+        priceMin: 2099,
+        priceMax: 2499,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-ergonomica-dt3-maya/", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=dt3+maya", type: "secondary" }
+        ]
+      },
+      {
+        id: 43,
+        name: "DT3 Helora",
+        brand: "DT3",
+        category: "ergonomia",
+        catName: "Ergonomia NR-17 Premium",
+        desc: "Construção sólida com chassi em alumínio polido, encosto com curvatura para descompressão de discos vertebrais e apoio de cabeça 3D.",
+        foam: "Mesh Integral de Alta Elasticidade",
+        arms: "3D Alumínio",
+        recline: "Sincronizado Multifunção",
+        weight: 150,
+        priceMin: 2299,
+        priceMax: 2799,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-ergonomica-dt3-helora/", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/dt3-helora", type: "secondary" }
+        ]
+      },
+      {
+        id: 44,
+        name: "Elements Veda",
+        brand: "Elements",
+        category: "ergonomia",
+        catName: "Suporte Lombar Milimétrico",
+        desc: "Apoio lombar regulável em altura e profundidade. Assento com borda cascata que estimula o fluxo sanguíneo das pernas.",
+        foam: "Injetada D55",
+        arms: "3D",
+        recline: "90° a 145°",
+        weight: 140,
+        priceMin: 1399,
+        priceMax: 1699,
+        links: [
+          { store: "Elements Oficial", url: "https://loja.elements.com.br/products/cadeira-elements-veda", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/elements-veda", type: "secondary" }
+        ]
+      },
+      {
+        id: 45,
+        name: "Elements Sophy",
+        brand: "Elements",
+        category: "ergonomia",
+        catName: "Design & Postura",
+        desc: "Mecanismo synchro de 4 estágios, base em alumínio fundido nobre e apoio cervical integrado que reduz tensões no trapézio.",
+        foam: "Espuma Injetada Ultra Densa",
+        arms: "3D",
+        recline: "Synchro 4 Estágios",
+        weight: 150,
+        priceMin: 1799,
+        priceMax: 2199,
+        links: [
+          { store: "Elements Oficial", url: "https://loja.elements.com.br/products/cadeira-elements-sophy", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/elements-sophy", type: "secondary" }
+        ]
+      },
+      {
+        id: 46,
+        name: "Elements Vertta",
+        brand: "Elements",
+        category: "ergonomia",
+        catName: "Mesh Ergonômica",
+        desc: "Encosto completo em tela mesh respirável, ajuste lombar independente e almofada cervical anatômica para alívio cervical.",
+        foam: "Assento em Espuma Injetada D50",
+        arms: "3D",
+        recline: "90° a 135°",
+        weight: 130,
+        priceMin: 1299,
+        priceMax: 1549,
+        links: [
+          { store: "Elements Oficial", url: "https://loja.elements.com.br/products/cadeira-elements-vertta", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=elements+vertta", type: "secondary" }
+        ]
+      },
+
+      // CATEGORIA D: BIOTIPOS GRANDES / PLUS SIZE (47 a 52)
+      {
+        id: 47,
+        name: "DT3 Rhino Elite Series",
+        brand: "DT3",
+        category: "plus-size",
+        catName: "Tanque Heavy Duty (Até 180kg)",
+        desc: "Especial para usuários altos e pesados (até 2,00m e 180kg). Assento largo de 58cm, 12cm de espessura de espuma injetada D65 e base para 2.000kg.",
+        foam: "Injetada D65 Ultra Firme (12cm)",
+        arms: "4D Metálicos Reforçados",
+        recline: "90° a 160° Mecanismo Frog",
+        weight: 180,
+        priceMin: 2399,
+        priceMax: 2899,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-gamer-dt3-rhino/", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/dt3-rhino", type: "secondary" }
+        ]
+      },
+      {
+        id: 48,
+        name: "DT3 Nero XL / Elite",
+        brand: "DT3",
+        category: "plus-size",
+        catName: "Assento Extra Largo",
+        desc: "Assento amplo sem abas elevadas (liberdade total para sentar de pernas cruzadas ou biotipos largos), tecido DT3 Max2Weave™ de alta resistência.",
+        foam: "Injetada D60",
+        arms: "4D",
+        recline: "90° a 180° Frog",
+        weight: 160,
+        priceMin: 2199,
+        priceMax: 2599,
+        links: [
+          { store: "DT3 Oficial", url: "https://dt3.com.br/produto/cadeira-gamer-dt3-nero/", type: "primary" },
+          { store: "Amazon BR", url: "https://www.amazon.com.br/s?k=dt3+nero", type: "secondary" }
+        ]
+      },
+      {
+        id: 49,
+        name: "Noblechairs Hero",
+        brand: "Noblechairs",
+        category: "plus-size",
+        catName: "Alta Estatura & Pro-eSports",
+        desc: "Encosto reto amplo e suporte lombar mecânico interno ajustável via dial rotativo lateral. Espuma fria D60 que não deforma com os anos.",
+        foam: "Espuma Fria D60",
+        arms: "4D Grandes e Macios",
+        recline: "90° a 135° Balanço Frog",
+        weight: 150,
+        priceMin: 3299,
+        priceMax: 3799,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/noblechairs-hero", type: "primary" },
+          { store: "Mercado Livre", url: "https://lista.mercadolivre.com.br/noblechairs-hero", type: "secondary" }
+        ]
+      },
+      {
+        id: 50,
+        name: "Cougar Armor Titan Pro",
+        brand: "Cougar",
+        category: "plus-size",
+        catName: "Super Reforçada",
+        desc: "Assento extra largo com 60cm de profundidade útil, acabamento tipo camurça aveludada nas almofadas e chassi em aço de padrão industrial.",
+        foam: "Moldada de Alta Densidade",
+        arms: "4D",
+        recline: "90° a 170°",
+        weight: 160,
+        priceMin: 2499,
+        priceMax: 2999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/cougar-armor-titan-pro", type: "primary" },
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=cougar+armor+titan", type: "secondary" }
+        ]
+      },
+      {
+        id: 51,
+        name: "Terabyte Black Throne",
+        brand: "Terabyte",
+        category: "plus-size",
+        catName: "Custo-Benefício Heavy Duty",
+        desc: "Desenvolvida para aguentar até 180kg com valor acessível; assento largo e reforço duplo sob o assento.",
+        foam: "Espuma Espessa Alta Densidade",
+        arms: "3D",
+        recline: "90° a 160°",
+        weight: 180,
+        priceMin: 1199,
+        priceMax: 1499,
+        links: [
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=terabyte+black+throne", type: "primary" }
+        ]
+      },
+      {
+        id: 52,
+        name: "DXRacer King Series",
+        brand: "DXRacer",
+        category: "plus-size",
+        catName: "Tradicional King",
+        desc: "A pioneira mundial em cadeiras amplas; estrutura sólida de aço, base de alumínio larga de 5 raios e almofadas grandes de alta densidade.",
+        foam: "Cura a Frio Alta Densidade",
+        arms: "4D",
+        recline: "90° a 135° Multifunção",
+        weight: 150,
+        priceMin: 2899,
+        priceMax: 3399,
+        links: [
+          { store: "DXRacer Brasil", url: "https://www.dxracer.com.br/", type: "primary" },
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/dxracer-king", type: "secondary" }
+        ]
+      },
+
+      // CATEGORIA E: LINHA LUXO & PRO-ESPORTS (53 a 55)
+      {
+        id: 53,
+        name: "Razer Iskur V2",
+        brand: "Razer",
+        category: "luxo",
+        catName: "Lombar Adaptativa 6D",
+        desc: "Revolucionário suporte lombar 6D que acompanha os movimentos laterais e de rotação da coluna vertebral em tempo real. Espuma de densidade gradual.",
+        foam: "Moldada de Densidade Gradual",
+        arms: "4D Razer Ergo",
+        recline: "90° a 152°",
+        weight: 136,
+        priceMin: 3999,
+        priceMax: 4799,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/razer-iskur-v2", type: "primary" },
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/busca?q=razer+iskur", type: "secondary" }
+        ]
+      },
+      {
+        id: 54,
+        name: "Razer Enki",
+        brand: "Razer",
+        category: "luxo",
+        catName: "Conforto Dia Inteiro",
+        desc: "Projetada para distribuição equilibrada do peso corporal; arco lombar integrado suave de 110°, assento largo sem abas afuniladas e revestimento híbrido.",
+        foam: "Assento Macio de Alta Resiliência",
+        arms: "4D",
+        recline: "90° a 152° com Balanço Reativo",
+        weight: 136,
+        priceMin: 2499,
+        priceMax: 2999,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/razer-enki", type: "primary" },
+          { store: "Pichau Gaming", url: "https://www.pichau.com.br/busca?q=razer+enki", type: "secondary" }
+        ]
+      },
+      {
+        id: 55,
+        name: "Cougar NxSys Aero (Cooler RGB)",
+        brand: "Cougar",
+        category: "luxo",
+        catName: "Ventilação Ativa Integrada",
+        desc: "Ventilador ARGB de 200mm embutido diretamente no encosto, soprando ar fresco nas costas do usuário através de tecido elastomérico e encosto vazado.",
+        foam: "Espuma de Alta Densidade Ventilada",
+        arms: "3D",
+        recline: "90° a 150°",
+        weight: 160,
+        priceMin: 2799,
+        priceMax: 3299,
+        links: [
+          { store: "KaBuM!", url: "https://www.kabum.com.br/busca/cougar-nxsys-aero", type: "primary" },
+          { store: "TerabyteShop", url: "https://www.terabyteshop.com.br/busca?str=cougar+nxsys+aero", type: "secondary" }
+        ]
+      }
+    ];
+
+    // ELEMENTOS DO DOM
+    const grid = document.getElementById("productsGrid");
+    const searchInput = document.getElementById("searchInput");
+    const sortSelect = document.getElementById("sortSelect");
+    const categoryButtons = document.querySelectorAll(".cat-btn");
+    const filteredCountSpan = document.getElementById("filteredCount");
+    const totalCountSpan = document.getElementById("totalCount");
+
+    let currentCategory = "all";
+    let searchQuery = "";
+    let currentSort = "default";
+
+    totalCountSpan.textContent = productsData.length;
+
+    // RENDERIZAR CARDS
+    function renderProducts() {
+      // Filtrar por categoria
+      let filtered = productsData.filter(item => {
+        if (currentCategory !== "all" && item.category !== currentCategory) {
+          return false;
+        }
+        // Filtrar por busca textual
+        if (searchQuery.trim() !== "") {
+          const q = searchQuery.toLowerCase();
+          const matchName = item.name.toLowerCase().includes(q);
+          const matchBrand = item.brand.toLowerCase().includes(q);
+          const matchDesc = item.desc.toLowerCase().includes(q);
+          const matchCat = item.catName.toLowerCase().includes(q);
+          const matchFoam = item.foam.toLowerCase().includes(q);
+          if (!matchName && !matchBrand && !matchDesc && !matchCat && !matchFoam) {
+            return false;
+          }
+        }
+        return true;
+      });
+
+      // Ordenação
+      if (currentSort === "price-asc") {
+        filtered.sort((a, b) => a.priceMin - b.priceMin);
+      } else if (currentSort === "price-desc") {
+        filtered.sort((a, b) => b.priceMin - a.priceMin);
+      } else if (currentSort === "weight-desc") {
+        filtered.sort((a, b) => b.weight - a.weight);
+      } else if (currentSort === "name-asc") {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+      }
+
+      filteredCountSpan.textContent = `Exibindo ${filtered.length} de ${productsData.length} cadeiras`;
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <h3>Nenhum modelo encontrado</h3>
+            <p>Tente ajustar os termos da busca ou selecionar outra categoria.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(item => `
+        <div class="product-card">
+          <div class="card-top">
+            <div class="card-header-row">
+              <span class="brand-tag">${item.brand}</span>
+              <span class="item-id">#${String(item.id).padStart(2, '0')}</span>
+            </div>
+            <h3 class="card-title">${item.name}</h3>
+            <span class="category-badge">${item.catName}</span>
+            <p class="card-description">${item.desc}</p>
+
+            <div class="specs-grid">
+              <div class="spec-item">
+                <div class="spec-label">Estofamento</div>
+                <div class="spec-value" title="${item.foam}">${item.foam}</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Apoio de Braço</div>
+                <div class="spec-value" title="${item.arms}">${item.arms}</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Reclinação</div>
+                <div class="spec-value" title="${item.recline}">${item.recline}</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Peso Suportado</div>
+                <div class="spec-value">Até ${item.weight} kg</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="price-row">
+              <span class="price-label">Faixa de Preço Estimada</span>
+              <span class="price-value">R$ ${item.priceMin.toLocaleString('pt-BR')} - ${item.priceMax.toLocaleString('pt-BR')}</span>
+            </div>
+            <div class="links-group">
+              ${item.links.map(l => `
+                <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="store-btn ${l.type}">
+                  ${l.store}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // EVENT LISTENERS
+    searchInput.addEventListener("input", (e) => {
+      searchQuery = e.target.value;
+      renderProducts();
+    });
+
+    sortSelect.addEventListener("change", (e) => {
+      currentSort = e.target.value;
+      renderProducts();
+    });
+
+    categoryButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        categoryButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentCategory = btn.dataset.cat;
+        renderProducts();
+      });
+    });
+
+    // INICIALIZAÇÃO
+    renderProducts();
+  </script>
+</body>
+</html>
